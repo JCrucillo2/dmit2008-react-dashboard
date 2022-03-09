@@ -7,4 +7,18 @@ const SideBarStyles = styled.aside`
     background-color: #ffffff;
 `;
 
-export { SideBarStyles };
+const SideBarHeader = styled.header`
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    h2 {
+        font-size: 18px;
+    }
+    svg {
+        color: grey;
+        vertical-align: middle;
+    }
+`;
+
+export { SideBarStyles, SideBarHeader };
